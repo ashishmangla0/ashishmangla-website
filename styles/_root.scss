@@ -1,0 +1,9 @@
+:root {
+  @each $color, $value in $base {
+    --base-#{$color}: #{$value};
+  }
+
+  --body-font-size: #{$font-size-base};
+  --body-line-height: #{$line-height-base};
+  --body-font-weight: #{$font-weight-base};
+}

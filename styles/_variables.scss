@@ -1,0 +1,58 @@
+$base-dark: #0d1014 !default;
+$base-white: #ffffff !default;
+$base: (
+  "dark": $base-dark,
+  "white" : $base-white
+);
+
+
+
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+//   xxxl: 1600px,
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+//   xxxl: 1580px,
+) !default;
+
+$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix: $variable-prefix !default;
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 1.5rem !default;
+$grid-row-columns: 6 !default;
+
+// Container padding
+
+$container-padding-x: $grid-gutter-width !default;
+
+$font-size-base: 1rem !default;
+
+$font-weight-normal: 400 !default;
+$font-weight-base: $font-weight-normal !default;
+
+$line-height-base: 1.5 !default;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+$gutters: $spacers !default;

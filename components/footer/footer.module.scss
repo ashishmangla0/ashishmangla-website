@@ -1,0 +1,6 @@
+@import "../../styles/functions/index";
+.footer{
+    background: var(--base-dark);
+    padding: toRem(112) 0 toRem(112) 0 ;
+    color: var(--base-white);
+}
