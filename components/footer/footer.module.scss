@@ -1,6 +1,46 @@
 @import "../../styles/functions/index";
-.footer{
-    background: var(--base-dark);
-    padding: toRem(112) 0 toRem(112) 0 ;
-    color: var(--base-white);
+.footer {
+  background: var(--base-dark);
+  padding: toRem(90) toRem(112);
+  color: var(--base-gray-one);
+  &_toptext {
+    font-size: toRem(18);
+    max-width: 60%;
+    margin-bottom: toRem(48);
+  }
+  &_item {
+    &:not(:last-child) {
+      margin-bottom: toRem(16);
+    }
+  }
+  &_link {
+    text-decoration: none;
+    color: var(--base-gray-one);
+  }
+  &_list {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 toRem(20) 0;
+
+  }
+  &_title {
+    text-transform: uppercase;
+    font-size: toRem(250);
+    margin-bottom: toRem(32);
+    line-height: 1;
+  }
+  &_right {
+    border-left: 1px solid rgba(241, 237, 221, 0.34);
+  }
+  &_address {
+    display: flex;
+    flex-flow: row wrap;
+    &img {
+      margin-right: toRem(16);
+    }
+    &details {
+      display: flex;
+      flex-flow: column wrap;
+    }
+  }
 }

@@ -1,8 +1,12 @@
 $base-dark: #0d1014 !default;
 $base-white: #ffffff !default;
+$gray-one: #f6f5ee !default;
+
+// #f6f5ee
 $base: (
   "dark": $base-dark,
-  "white" : $base-white
+  "white" : $base-white,
+  "gray-one" : $gray-one
 );
 
 
