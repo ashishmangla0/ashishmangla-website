@@ -89,7 +89,13 @@ const Footer = () => {
             have something interesting to share, drop us a line
           </div>
           <div className={footerStyles.footer_address}>
-            <Image src="/address.png" alt="" width={32} height={47}  className={footerStyles.footer_addressimg} />
+            <Image
+              src="/address.png"
+              alt=""
+              width={32}
+              height={47}
+              className={footerStyles.footer_addressimg}
+            />
             <div className={footerStyles.footer_addressdetails}>
               <span>Faridabad-121102, Haryana</span>
               <span>Phone: +918168123203</span>
